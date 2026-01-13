@@ -1,15 +1,14 @@
 #include "Character.h"
-#include "Character.h"
 #include <memory>
 
 int main() {
-    auto idle = std::make_unique<IdleState>();
-    GameCharacter character(std::move(idle));
+    GameCharacter character(std::make_unique<IdleState>());
 
-    // Demo: cycle 8 times
-    for (int i = 0; i < 8; ++i) {
+    
+    for (int i = 0; i < 10; ++i) {
         character.request();
     }
 
     return 0;
 }
+
