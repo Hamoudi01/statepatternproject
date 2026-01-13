@@ -1,0 +1,12 @@
+{
+    "name": "StatePatternDev",
+    "build": { "dockerfile": "Dockerfile" },
+    "workspaceFolder": "/workspace",
+    "extensions": [
+        "ms-vscode.cpptools",
+        "ms-azuretools.vscode-docker"
+    ],
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    }
+}
