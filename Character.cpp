@@ -1,29 +1,31 @@
-#include "Character.h"
+/*#include "Character.h"
+#include <iostream>
+#include <memory>
 
-// Concrete States
+// IdleState
 class IdleState : public State {
 public:
     void handle(Character& character) override {
-        std::cout << "Character is now idle.\n";
+        std::cout << "Character is now idle." << std::endl;
         character.setState(std::make_unique<RunningState>());
     }
-    std::string getName() override { return "Idle"; }
 };
 
+// RunningState
 class RunningState : public State {
 public:
     void handle(Character& character) override {
-        std::cout << "Character is now running.\n";
+        std::cout << "Character is now running." << std::endl;
         character.setState(std::make_unique<JumpingState>());
     }
-    std::string getName() override { return "Running"; }
 };
 
+// JumpingState
 class JumpingState : public State {
 public:
     void handle(Character& character) override {
-        std::cout << "Character is now jumping.\n";
+        std::cout << "Character is now jumping." << std::endl;
         character.setState(std::make_unique<IdleState>());
     }
-    std::string getName() override { return "Jumping"; }
 };
+*/

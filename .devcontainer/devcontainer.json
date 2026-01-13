@@ -5,7 +5,9 @@
     "customizations": {
         "vscode": {
             "settings": {
-                "terminal.integrated.shell.linux": "/bin/bash"
+                "terminal.integrated.shell.linux": "/bin/bash",
+                "C_Cpp.intelliSenseEngine": "default",
+                "C_Cpp.default.compilerPath": "/usr/bin/g++"
             },
             "extensions": [
                 "ms-vscode.cpptools",
