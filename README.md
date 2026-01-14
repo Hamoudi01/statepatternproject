@@ -69,6 +69,9 @@ g++ main.cpp Character.cpp -o StatePatternDemo
 ### Step 4: Run the Program
 ./StatePatternDemo
 
+## Delete Old Compiled Program
+rm StatePatternDemo
+
 ### Expected Output
 The program will print messages showing the character transitioning through different states. Each output line represents a different state handling the
 same request() call.
@@ -79,6 +82,3 @@ git status
 git add .
 git commit -m "Update State Pattern demo and documentation"
 git push
-
-## Delete Old Compiled Program
-rm StatePatternDemo
