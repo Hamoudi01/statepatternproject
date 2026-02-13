@@ -64,7 +64,7 @@ using a Linux environment with `g++`.
 cd /workspaces/statepatternproject
 
 ### Step 3: Compile the Program
-g++ main.cpp Character.cpp -o StatePatternDemo
+g++ main.cpp -o StatePatternDemo
 
 ### Step 4: Run the Program
 ./StatePatternDemo
