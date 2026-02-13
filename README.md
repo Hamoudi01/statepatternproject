@@ -54,9 +54,9 @@ using a Linux environment with `g++`.
 ---
 
 ### Step 1: Open the Project in a Dev Container
-- Open the repository in Visual Studio Code
-- Reopen the folder in a Dev Container **or**
 - Open the repository using GitHub Codespaces
+- Reopen the folder in a Dev Container
+
 
 ---
 
